@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneBookAPI.Application\PhoneBookAPI.Application.csproj" />
+  </ItemGroup>
+
 </Project>
