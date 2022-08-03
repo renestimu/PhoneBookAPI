@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PhoneBookAPI.Application.Repositories
 {
-    internal interface IReportReadRepository:IReadRepository<Report>
+    public interface IReportReadRepository:IReadRepository<Report>
     {
     }
 }

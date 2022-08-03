@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PhoneBookAPI.Domain.Entities
 {
-    public class Contacts:BaseEntity
+    public class Contact:BaseEntity
     {
         public string Name { get; set; }
         public string Surname { get; set; }

@@ -11,6 +11,6 @@ namespace PhoneBookAPI.Domain.Entities
     {
         public string State { get; set; }
         public string DirectoryPath { get; set; }
-        public Contacts Contact { get; set; }
+        public Contact Contact { get; set; }
     }
 }

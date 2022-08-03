@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PhoneBookAPI.Application.Repositories
 {
-    public interface IContactsWriteRepository:IWriteRepository<Contacts>
+    public interface IContactReadRepository:IReadRepository<Contact>
     {
     }
 }
