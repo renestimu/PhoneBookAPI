@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PhoneBookAPI.Application\PhoneBookAPI.Application.csproj" />
     <ProjectReference Include="..\PhoneBookAPI.Persistence\PhoneBookAPI.Persistence.csproj" />
   </ItemGroup>
