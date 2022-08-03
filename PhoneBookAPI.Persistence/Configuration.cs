@@ -14,7 +14,7 @@ namespace PhoneBookAPI.Persistence
             get
             {
                 ConfigurationManager configurationManager = new();
-                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/PhoneBookAPI.API"));
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../PhoneBookAPI/PhoneBookAPI.API"));
                 configurationManager.AddJsonFile("appsettings.json");
 
                 return configurationManager.GetConnectionString("PostgreSQL");
